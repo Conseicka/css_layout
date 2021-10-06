@@ -12,18 +12,13 @@
   }
 }
 
+
 a {
   text-decoration: none;
   display: inline;
   color: black;
 }
 
-.github-ico{
-  height: 40px;
-  width: 40px;
-  fill: white;
-  margin-left: 15px
-}
 
 header {
     width: 100%;
@@ -33,7 +28,7 @@ header {
     grid-template-columns: 1fr 400px ;
     background: linear-gradient(300deg,darkviolet,#120974,#740909);
     background-size: 180% 180%;
-    animation: gradient-animation 8s ease infinite;
+    animation: gradient-animation 5s ease infinite;
     border-bottom: 1px solid white;
 }
 
@@ -60,6 +55,13 @@ header .header-icons-container .icons {
 header .icons span {
     color: white;
 }
+.github-ico{
+  height: 40px;
+  width: 40px;
+  fill: white;
+  margin-left: 15px
+}
+
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -71,16 +73,25 @@ header .header-nav-container {
   display: grid;
 
 }
-.header-nav-container  a{
+.header-nav-container a{
   color: white;
   border-bottom: 1px solid white;
 }
-.profile-link {
+.header-nav-container a:hover{
+  color: #4a94d0;
+  border-bottom: 1px solid #4a94d0;
+  opacity: .9;
+}
+
+.profile-link{
   display: flex;
   justify-content:center;
-
 }
-.certifications-link {
+.certifications-link{
+  display: flex;
+  justify-content:center;
+}
+.timeline-link{
   display: flex;
   justify-content:center;
 }

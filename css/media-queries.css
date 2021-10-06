@@ -1,6 +1,15 @@
+@media (max-width: 1100px) {
+  .blogs-posts-container .post-container {
+      max-width: 45%;
+      transition: .5s;
+  }
+
+}
 
 @media (max-width: 900px) {
-
+    main {
+      min-width: 550px
+    }
     .blogs-main-new {
         grid-template-columns: 1fr;
         grid-template-rows: 3fr
@@ -14,6 +23,7 @@
     }
     .blogs-posts-container .post-container {
         max-width: 45%;
+        transition: .5s;
     }
     .proyects-main-container {
         grid-template-columns: 1fr 1fr;
@@ -32,7 +42,7 @@
       /*position: absolute;*/
       -moz-transition: all 0.5s ease-in-out;
       transition: all 0.5s ease-in-out;
-
+      min-width: 550px
     }
 
     header .header-icons-container {
@@ -64,8 +74,11 @@
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .blogs-posts-container .post-container {
         max-width: 95%;
+        display: inline-table;
+        transition: .5s;
     }
+
 }
