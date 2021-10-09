@@ -63,5 +63,8 @@ body {
     letter-spacing: 10px;
     text-align: center;
     color: white;
+    background-color: rgb(255,255,255,.3);
+    height: 115px;
+    border-radius: 15px;
 
 }
