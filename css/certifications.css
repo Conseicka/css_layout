@@ -66,12 +66,14 @@
   opacity: .9;
 }
 .blogs-posts-container .post-container img {
-    width: 100%;
+    width: 95%;
+    transition: .5s;
 }
 
 .blogpost-img-container {
     padding: 0 50px 40px;
 }
+
 .blogpost-img-container img {
     width: 100%;
 }
@@ -84,4 +86,12 @@
 }
 .blogpost-main-container article h1 {
     font-size: 35px;
+}
+.img-hover{
+  border-radius: 10px;
+}
+
+.img-hover:hover{
+  opacity: .8;
+  transition: .5;
 }

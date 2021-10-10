@@ -55,6 +55,11 @@ header .header-icons-container .icons {
 header .icons span {
     color: white;
 }
+
+header .icons span:hover {
+  fill: #4a94d0;
+}
+
 .github-ico{
   height: 40px;
   width: 40px;
@@ -64,7 +69,7 @@ header .icons span {
 
 nav {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
 }
 header .header-nav-container {
@@ -92,6 +97,10 @@ header .header-nav-container {
   justify-content:center;
 }
 .timeline-link{
+  display: flex;
+  justify-content:center;
+}
+.welcome-link{
   display: flex;
   justify-content:center;
 }
