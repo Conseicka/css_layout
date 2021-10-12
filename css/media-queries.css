@@ -66,7 +66,12 @@
     }
     .proyects-main-container {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr;
+        grid-template-rows: 3fr;
+
+    }
+    .hobbies-main-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 3fr;
 
     }
     .profile-main-container .profile-container {
@@ -146,6 +151,7 @@
         display: inline-table;
         transition: .5s;
     }
+
     footer{
 
       min-width: 550px;
@@ -158,4 +164,10 @@
     .home-main-text{
       height: 200px;
     }
+    .hobbies-main-container {
+        grid-template-columns: 1fr;
+        
+
+    }
+
 }

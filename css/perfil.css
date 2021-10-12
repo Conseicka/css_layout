@@ -63,11 +63,11 @@ h4 {
   align-content: center;
 }
 
-.profile-main-proyects {
+.profile-main-proyects,  .profile-main-hobbies{
     padding: 0 50px 40px;
 }
-.profile-main-proyects h3 {
-    border-bottom: 1px solid #cdd2da;
+.profile-main-proyects, .profile-main-hobbies h3 {
+    /*border-bottom: 1px solid #cdd2da;*/
     padding-bottom: 35px;
     text-align: center;
 }
@@ -82,4 +82,18 @@ h4 {
 }
 .identation{
   padding:20px;
+}
+.img-hobbie{
+  height: 100%;
+  width: 100%;
+}
+.hobbies-main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.hobbie-container{
+  padding: 0 20px;
+  text-align: justify;
+
 }
